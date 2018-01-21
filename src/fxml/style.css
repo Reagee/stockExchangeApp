@@ -1,0 +1,13 @@
+.pressedTextField{
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-border-color: red;
+}
+
+.unPressed{
+    -fx-background-radius: 0px;
+    -fx-border-radius: 0px;
+    -fx-border-width: 0px;
+    -fx-border-color: none;
+}
