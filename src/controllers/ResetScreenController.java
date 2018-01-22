@@ -2,6 +2,7 @@ package controllers;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.TabPane;
 import javafx.scene.layout.Pane;
 
 import java.io.IOException;
@@ -32,5 +33,10 @@ public class ResetScreenController {
     public void setScreen(Pane pane){
         mainPane.getChildren().clear();
         mainPane.getChildren().add(pane);
+    }
+
+    public void setScreenTab(TabPane tabPane){
+        mainPane.getChildren().clear();
+        mainPane.getChildren().add(tabPane);
     }
 }
